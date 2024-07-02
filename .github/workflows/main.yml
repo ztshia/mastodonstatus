@@ -26,8 +26,8 @@ jobs:
         MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
       run: |
-        echo "MASTODON_ACCESS_TOKEN=${MASTODON_ACCESS_TOKEN}"
-        echo "MASTODON_USERNAME=${MASTODON_USERNAME}"
+        echo "MASTODON_ACCESS_TOKEN=${{ secrets.MASTODON_ACCESS_TOKEN }}"
+        echo "MASTODON_USERNAME=${{ secrets.MASTODON_USERNAME }}"
         python fetch_mastodon_status.py
 
     - name: Commit and push status.json
