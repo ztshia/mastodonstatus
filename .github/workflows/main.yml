@@ -1,0 +1,41 @@
+name: Fetch Mastodon Statuses
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Fetch Mastodon statuses
+      env:
+        MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
+      run: |
+        echo "MASTODON_ACCESS_TOKEN=${{ secrets.MASTODON_ACCESS_TOKEN }}"
+        echo "MASTODON_USERNAME=${{ secrets.MASTODON_USERNAME }}"
+        python fetch_mastodon_status.py
+
+    - name: Commit and push status.json
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add status.json
+        git commit -m 'Update status.json'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
