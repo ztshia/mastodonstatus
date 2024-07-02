@@ -21,21 +21,20 @@ jobs:
     - name: Install dependencies
       run: pip install requests
 
-    - name: Fetch Mastodon statuses
+    - name: Fetch Mastodon statuses and generate memos
       env:
         MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
       run: |
-        echo "MASTODON_ACCESS_TOKEN=${{ secrets.MASTODON_ACCESS_TOKEN }}"
-        echo "MASTODON_USERNAME=${{ secrets.MASTODON_USERNAME }}"
         python fetch_mastodon_status.py
+        python generate_memos.py
 
-    - name: Commit and push status.json
+    - name: Commit and push status.json and memos.json
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add status.json
-        git commit -m 'Update status.json'
+        git add status.json memos.json
+        git commit -m 'Update status.json and memos.json'
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
