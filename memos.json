@@ -1,5 +1,21 @@
 [
     {
+        "created_at": "2024-07-04T08:09:45.508Z",
+        "url": "https://c7.io/@cue/112727201251630690",
+        "content": "<p>最近几年A股每一次大跌，全都是要靠政策拉起来，政治局会议啦，金融工作会议啦，证监会换人啦，房地产新政啦，总是起到扬汤止沸的效果，中国经济水深火热长期下行的基本面并没有改变。<a href=\"https://c7.io/tags/A%E8%82%A1\" class=\"mention hashtag\" rel=\"tag\">#<span>A股</span></a></p>",
+        "application": {
+            "name": "Metatext",
+            "website": "https://metabolist.org/metatext"
+        },
+        "media_attachments": [],
+        "tags": [
+            {
+                "name": "a股",
+                "url": "https://c7.io/tags/a%E8%82%A1"
+            }
+        ]
+    },
+    {
         "created_at": "2024-07-02T13:22:31.331Z",
         "url": "https://c7.io/@cue/112717106467968954",
         "content": "<p>今年的欧洲杯太乏味了，今天的比赛已经不想看了。</p>",
@@ -258,34 +274,6 @@
             {
                 "url": "https://c7.io/system/media_attachments/files/112/590/334/964/439/060/original/503a5a4217d2eb01.jpeg",
                 "preview_url": "https://c7.io/system/media_attachments/files/112/590/334/964/439/060/small/503a5a4217d2eb01.jpeg"
-            }
-        ],
-        "tags": []
-    },
-    {
-        "created_at": "2024-06-09T16:40:07.381Z",
-        "url": "https://c7.io/@cue/112587650326858716",
-        "content": "<p>抖音里的这个柯南画风滤镜真的太神啦。</p>",
-        "application": {
-            "name": "Metatext",
-            "website": "https://metabolist.org/metatext"
-        },
-        "media_attachments": [
-            {
-                "url": "https://c7.io/system/media_attachments/files/112/587/649/426/786/312/original/ca365b833ab45f58.jpeg",
-                "preview_url": "https://c7.io/system/media_attachments/files/112/587/649/426/786/312/small/ca365b833ab45f58.jpeg"
-            },
-            {
-                "url": "https://c7.io/system/media_attachments/files/112/587/649/557/333/696/original/6e9cc0cdf10c873e.jpeg",
-                "preview_url": "https://c7.io/system/media_attachments/files/112/587/649/557/333/696/small/6e9cc0cdf10c873e.jpeg"
-            },
-            {
-                "url": "https://c7.io/system/media_attachments/files/112/587/649/679/823/091/original/757146a854f56537.jpeg",
-                "preview_url": "https://c7.io/system/media_attachments/files/112/587/649/679/823/091/small/757146a854f56537.jpeg"
-            },
-            {
-                "url": "https://c7.io/system/media_attachments/files/112/587/649/792/151/514/original/826d50bf8e738710.jpeg",
-                "preview_url": "https://c7.io/system/media_attachments/files/112/587/649/792/151/514/small/826d50bf8e738710.jpeg"
             }
         ],
         "tags": []
