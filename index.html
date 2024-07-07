@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastodon | 階上生活</title>
+    <link rel="icon" href="./assets/img/mastodon.svg" type="image/svg" />
+    <link rel="shortcut icon" href="./assets/img/mastodon.svg" type="image/svg" />
+    <link rel="apple-touch-icon" href="./assets/img/mastodon.svg" type="image/svg" />
+    <link rel="stylesheet" href="./assets/css/fanfou.css">
+    <script type="text/javascript" src="assets/js/lazyload.min.js?v=17.8.3"></script>
+    <script type="text/javascript" src="assets/js/marked.min.js?v=4.2.2"></script>
+    <script type="text/javascript" src="assets/js/view-image.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/pangu.min.js?v=4.0.7"></script> -->
+    <script type="text/javascript" src="assets/js/moment.min.js?v=2.29.4"></script>
+    <script type="text/javascript" src="assets/js/moment.twitter.js"></script>
+    <script type="text/javascript" src="assets/js/APlayer.min.js"></script>
+    <script type="text/javascript" src="assets/js/Meting.min.js"></script>
+    <script type="text/javascript" src="assets/js/highlight.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/fanfou.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="assets/img/profile.jpg" alt="Profile Picture" class="profile-pic" no-view>
+            <div class="profile-info">
+                <h1 class="name">Kioto XIA</h1>
+                <p class="handle">@cue</p>
+                <a href="https://about.upstairs.cn" target="_blank" class="website">about.upstairs.cn</a>
+                <p class="join-date">2007年10月12日 加入</p>
+            </div>
+        </div>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('posts')">帖子</button>
+            <button class="tab-button" onclick="showTab('media')">媒体</button>
+        </div>
+        <div class="content">
+            <div class="posts" id="posts"></div>
+            <div class="media" id="media" style="display: none;"></div>
+        </div>
+        <button id="load-more" onclick="loadMore()">加载更多</button>
+    </div>
+</body>
+</html>
