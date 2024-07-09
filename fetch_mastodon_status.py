@@ -58,7 +58,7 @@ def update_status_file(new_statuses):
 
     combined_statuses = new_statuses + [status for status in current_statuses if status['id'] not in {s['id'] for s in new_statuses}]
     
-    for status in new_statuses:
+    for status in combined_statuses:
         if 'media_attachments' in status and status['media_attachments']:
             for media in status['media_attachments']:
                 if media['type'] == 'image':
@@ -68,6 +68,19 @@ def update_status_file(new_statuses):
 
     with open(STATUS_FILE, 'w', encoding='utf-8') as f:
         json.dump(combined_statuses, f, ensure_ascii=False, indent=4)
+
+def download_images_from_history():
+    if os.path.exists(STATUS_FILE):
+        with open(STATUS_FILE, 'r', encoding='utf-8') as f:
+            statuses = json.load(f)
+            for status in statuses:
+                if 'media_attachments' in status and status['media_attachments']:
+                    for media in status['media_attachments']:
+                        if media['type'] == 'image':
+                            image_url = media['url']
+                            image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
+                            if not os.path.exists(image_name):  # 防止重复下载
+                                download_image(image_url, image_name)
 
 def main():
     if not MASTODON_ACCESS_TOKEN or not MASTODON_USERNAME:
@@ -88,6 +101,7 @@ def main():
     statuses = fetch_statuses(MASTODON_BASE_URL, MASTODON_ACCESS_TOKEN, user_id)
     save_last_fetched_id(statuses)
     update_status_file(statuses)
+    download_images_from_history()
 
 if __name__ == "__main__":
     main()
