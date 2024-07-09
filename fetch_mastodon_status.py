@@ -7,6 +7,10 @@ MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN")
 MASTODON_USERNAME = os.getenv("MASTODON_USERNAME")
 LAST_FETCHED_ID_FILE = "last_fetched_id.txt"
 STATUS_FILE = "status.json"
+IMG_FOLDER = "img"
+
+if not os.path.exists(IMG_FOLDER):
+    os.makedirs(IMG_FOLDER)
 
 def get_last_fetched_id():
     if os.path.exists(LAST_FETCHED_ID_FILE):
@@ -36,6 +40,15 @@ def fetch_statuses(base_url, access_token, username):
 
     return response.json()
 
+def download_image(url, file_path):
+    response = requests.get(url, stream=True)
+    if response.status_code == 200:
+        with open(file_path, 'wb') as f:
+            for chunk in response.iter_content(1024):
+                f.write(chunk)
+    else:
+        print(f"Failed to download image: {response.status_code} {response.content}")
+
 def update_status_file(new_statuses):
     if os.path.exists(STATUS_FILE):
         with open(STATUS_FILE, 'r', encoding='utf-8') as f:
@@ -43,9 +56,16 @@ def update_status_file(new_statuses):
     else:
         current_statuses = []
 
-    # Combine new statuses with the current ones, ensuring no duplicates
     combined_statuses = new_statuses + [status for status in current_statuses if status['id'] not in {s['id'] for s in new_statuses}]
     
+    for status in new_statuses:
+        if 'media_attachments' in status and status['media_attachments']:
+            for media in status['media_attachments']:
+                if media['type'] == 'image':
+                    image_url = media['url']
+                    image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
+                    download_image(image_url, image_name)
+
     with open(STATUS_FILE, 'w', encoding='utf-8') as f:
         json.dump(combined_statuses, f, ensure_ascii=False, indent=4)
 
