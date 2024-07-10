@@ -1,5 +1,172 @@
 [
     {
+        "id": "112764327055907297",
+        "created_at": "2024-07-10T21:31:20.321Z",
+        "in_reply_to_id": null,
+        "in_reply_to_account_id": null,
+        "sensitive": false,
+        "spoiler_text": "",
+        "visibility": "public",
+        "language": "zh-CN",
+        "uri": "https://c7.io/users/cue/statuses/112764327055907297",
+        "url": "https://c7.io/@cue/112764327055907297",
+        "replies_count": 0,
+        "reblogs_count": 0,
+        "favourites_count": 0,
+        "edited_at": "2024-07-10T21:33:11.136Z",
+        "favourited": false,
+        "reblogged": false,
+        "muted": false,
+        "bookmarked": false,
+        "pinned": false,
+        "content": "<p>今天看了《走走停停》，大约是我2024年看过的最好的一部电影作品，其中的定语或许可以省略，就是2024年最好的电影。影片的英文名叫《Gold or Shit》，也叫《G for Gap》，后面这个名字大约是后来增加上去的，但的确很惊艳，像是前年看《B for Busy》时的感觉一样，不论是剧情、光影、演员还是风格都让人眼前一亮。</p><p>或许是当下的人生处境与胡歌饰演的主人公吴迪有太多相似之处，失业、躺平、不甘、自负、丧亲、痛苦，他所经历的每一步我仿佛都可以感同身受，或许这也是冯柳柳的初心，拍一个能让大家产生共鸣的人物。</p><p>人生总是起起落落、走走停停，正如影片中所呈现的那样，世界总是不是人们期望的样子，就像面试官可能都是草包、就像领导一样是个耙耳朵、就像高中时的班花嫁给了同班的那个猥琐男、就像辛苦拍摄的纪录片会被上司褫夺、就像前一秒还在和你说话的亲人下一秒却天人两隔。</p><p>人嘛，总是下意识的选择更容易走的那条路，没有谁的生活是完美的，有遗憾很正常。</p><p>而冯柳柳，我愿称她为一束光，在黑暗中指明方向，倾听、关注、理解、共情，可遇而不可求，或许在他们之前曾经有过一些情愫，正如那稍纵即逝的那一晚，她说，「跟你聊得来的女人应该很少吧」，我想那大约正是她的真实想法。可是有些情愫也的确只能存在在欲说还休、欲扬先抑、欲情故纵、欲盖弥彰，能做的或许也就只是在故乡一起吃一碗青春时爱吃的小吃罢了，仅此而已。时机不对，错过便也是错过了。</p><p>「跟你做朋友，我挺开心的」，「我也这么觉得」。</p><p>江美玲，她或许代表了那一代人的妈妈，也像极了我的妈妈，隐忍、坚毅、豁达、宽容，她可以在任何时候给予孩子最大的理解与支持，和就像李焕英说的那样，「我觉得我这辈子过得特别幸福，怎么就不相信我呢？」 当吴迪从冰箱拿出妈妈生前亲手做的最后的冰块，当他在超市坐上妈妈最爱做的那件按摩椅，他终于明白生活的意义。</p><p>他这辈子看起来好像不是特别成功，但是我们都特别怀念这个人。成功不见得是金子，失败也不见得是屎。</p><p>影片上映了一个月便草草上了流媒体，在这个浮躁的年代，能够表达出这样的价值观已经算上是时代的清流，很感激能够在迷惘低谷期遇见这样一部佳作，非常感谢。</p>",
+        "filtered": [],
+        "reblog": null,
+        "application": {
+            "name": "Mammoth",
+            "website": "https://getmammoth.app"
+        },
+        "account": {
+            "id": "112300688610343990",
+            "username": "cue",
+            "acct": "cue",
+            "display_name": "Kioto",
+            "locked": false,
+            "bot": false,
+            "discoverable": false,
+            "group": false,
+            "created_at": "2024-04-20T00:00:00.000Z",
+            "note": "<p>著名晨间剧表演艺术家、国家一级演员新垣结衣女士的配偶。</p>",
+            "url": "https://c7.io/@cue",
+            "uri": "https://c7.io/users/cue",
+            "avatar": "https://c7.io/system/accounts/avatars/112/300/688/610/343/990/original/f35600db354c1468.jpeg",
+            "avatar_static": "https://c7.io/system/accounts/avatars/112/300/688/610/343/990/original/f35600db354c1468.jpeg",
+            "header": "https://c7.io/system/accounts/headers/112/300/688/610/343/990/original/0806a6b5414fe740.jpeg",
+            "header_static": "https://c7.io/system/accounts/headers/112/300/688/610/343/990/original/0806a6b5414fe740.jpeg",
+            "followers_count": 1,
+            "following_count": 4,
+            "statuses_count": 33,
+            "last_status_at": "2024-07-10",
+            "noindex": false,
+            "emojis": [],
+            "roles": [],
+            "fields": [
+                {
+                    "name": "个人网站",
+                    "value": "<a href=\"https://about.upstairs.cn\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">about.upstairs.cn</span><span class=\"invisible\"></span></a>",
+                    "verified_at": null
+                }
+            ]
+        },
+        "media_attachments": [
+            {
+                "id": "112764320247521968",
+                "type": "image",
+                "url": "https://c7.io/system/media_attachments/files/112/764/320/247/521/968/original/798090d47908c70d.jpeg",
+                "preview_url": "https://c7.io/system/media_attachments/files/112/764/320/247/521/968/small/798090d47908c70d.jpeg",
+                "remote_url": null,
+                "preview_remote_url": null,
+                "text_url": null,
+                "meta": {
+                    "original": {
+                        "width": 4464,
+                        "height": 1858,
+                        "size": "4464x1858",
+                        "aspect": 2.402583423035522
+                    },
+                    "small": {
+                        "width": 744,
+                        "height": 310,
+                        "size": "744x310",
+                        "aspect": 2.4
+                    }
+                },
+                "description": null,
+                "blurhash": "U58zu._NyCw~$+VtbrM|i{M{InaLxbj[WVt7"
+            },
+            {
+                "id": "112764320155393090",
+                "type": "image",
+                "url": "https://c7.io/system/media_attachments/files/112/764/320/155/393/090/original/194e7d885797794c.jpeg",
+                "preview_url": "https://c7.io/system/media_attachments/files/112/764/320/155/393/090/small/194e7d885797794c.jpeg",
+                "remote_url": null,
+                "preview_remote_url": null,
+                "text_url": null,
+                "meta": {
+                    "original": {
+                        "width": 4464,
+                        "height": 1858,
+                        "size": "4464x1858",
+                        "aspect": 2.402583423035522
+                    },
+                    "small": {
+                        "width": 744,
+                        "height": 310,
+                        "size": "744x310",
+                        "aspect": 2.4
+                    }
+                },
+                "description": null,
+                "blurhash": "UKECtOe.IVM{00Rj?aM{xut7IVt69FxuM{xu"
+            },
+            {
+                "id": "112764320154766232",
+                "type": "image",
+                "url": "https://c7.io/system/media_attachments/files/112/764/320/154/766/232/original/50ab2d5565639e95.jpeg",
+                "preview_url": "https://c7.io/system/media_attachments/files/112/764/320/154/766/232/small/50ab2d5565639e95.jpeg",
+                "remote_url": null,
+                "preview_remote_url": null,
+                "text_url": null,
+                "meta": {
+                    "original": {
+                        "width": 4464,
+                        "height": 1858,
+                        "size": "4464x1858",
+                        "aspect": 2.402583423035522
+                    },
+                    "small": {
+                        "width": 744,
+                        "height": 310,
+                        "size": "744x310",
+                        "aspect": 2.4
+                    }
+                },
+                "description": null,
+                "blurhash": "UVECk1M|D%WC~qRjIUWBxuaeNGWVfjkCj[WB"
+            },
+            {
+                "id": "112764320246195503",
+                "type": "image",
+                "url": "https://c7.io/system/media_attachments/files/112/764/320/246/195/503/original/e81f2234bf625a35.jpeg",
+                "preview_url": "https://c7.io/system/media_attachments/files/112/764/320/246/195/503/small/e81f2234bf625a35.jpeg",
+                "remote_url": null,
+                "preview_remote_url": null,
+                "text_url": null,
+                "meta": {
+                    "original": {
+                        "width": 4464,
+                        "height": 1858,
+                        "size": "4464x1858",
+                        "aspect": 2.402583423035522
+                    },
+                    "small": {
+                        "width": 744,
+                        "height": 310,
+                        "size": "744x310",
+                        "aspect": 2.4
+                    }
+                },
+                "description": null,
+                "blurhash": "UHC@1-Mwx]bc01%NRjxu-nMwxaM|D*IWD%t7"
+            }
+        ],
+        "mentions": [],
+        "tags": [],
+        "emojis": [],
+        "card": null,
+        "poll": null
+    },
+    {
         "id": "112761456614812706",
         "created_at": "2024-07-10T09:21:20.867Z",
         "in_reply_to_id": null,
