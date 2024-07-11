@@ -24,7 +24,7 @@ def save_last_fetched_id(statuses):
         with open(LAST_FETCHED_ID_FILE, 'w') as f:
             f.write(last_id)
 
-def fetch_statuses(base_url, access_token, username):
+def fetch_statuses(base_url, access_token, user_id):
     headers = {
         "Authorization": f"Bearer {access_token}"
     }
@@ -33,7 +33,7 @@ def fetch_statuses(base_url, access_token, username):
     if last_fetched_id:
         params["since_id"] = last_fetched_id
 
-    response = requests.get(f"{base_url}/api/v1/accounts/{username}/statuses", headers=headers, params=params)
+    response = requests.get(f"{base_url}/api/v1/accounts/{user_id}/statuses", headers=headers, params=params)
     if response.status_code != 200:
         print(f"Failed to fetch statuses: {response.status_code} {response.content}")
         return []
@@ -41,11 +41,13 @@ def fetch_statuses(base_url, access_token, username):
     return response.json()
 
 def download_image(url, file_path):
+    print(f"Downloading image from {url} to {file_path}")
     response = requests.get(url, stream=True)
     if response.status_code == 200:
         with open(file_path, 'wb') as f:
             for chunk in response.iter_content(1024):
                 f.write(chunk)
+        print(f"Downloaded image to {file_path}")
     else:
         print(f"Failed to download image: {response.status_code} {response.content}")
 
@@ -62,9 +64,12 @@ def update_status_file(new_statuses):
         if 'media_attachments' in status and status['media_attachments']:
             for media in status['media_attachments']:
                 if media['type'] == 'image':
-                    image_url = media['url']
-                    image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
-                    download_image(image_url, image_name)
+                    if 'url' in media:
+                        image_url = media['url']
+                        image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
+                        download_image(image_url, image_name)
+                    else:
+                        print(f"No URL found in media: {media}")
 
     with open(STATUS_FILE, 'w', encoding='utf-8') as f:
         json.dump(combined_statuses, f, ensure_ascii=False, indent=4)
@@ -80,6 +85,7 @@ def download_images_from_history():
                             image_url = media['url']
                             image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
                             if not os.path.exists(image_name):  # 防止重复下载
+                                print(f"Downloading historical image from {image_url} to {image_name}")
                                 download_image(image_url, image_name)
 
 def main():
