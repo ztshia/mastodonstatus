@@ -6,7 +6,6 @@ on:
       - main
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:
 
 jobs:
   build:
@@ -30,13 +29,12 @@ jobs:
         python fetch_mastodon_status.py
         python generate_memos.py
 
-- name: Commit and push status.json and memos.json
-  run: |
-    git config --global user.name 'github-actions'
-    git config --global user.email 'github-actions@github.com'
-    git add .
-    git commit -m 'Update status.json and memos.json'
-    git push
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+    - name: Commit and push status.json and memos.json
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add status.json memos.json last_fetched_id.txt img/
+        git commit -m 'Update status.json, memos.json, and images'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

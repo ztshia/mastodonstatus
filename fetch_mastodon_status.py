@@ -67,6 +67,7 @@ def update_status_file(new_statuses):
                     if 'url' in media:
                         image_url = media['url']
                         image_name = os.path.join(IMG_FOLDER, f"{media['id']}.jpg")
+                        print(f"Processing media: {media}")  # 添加调试信息
                         download_image(image_url, image_name)
                     else:
                         print(f"No URL found in media: {media}")
@@ -105,6 +106,7 @@ def main():
 
     print(f"Fetching statuses for {MASTODON_USERNAME} from {MASTODON_BASE_URL}")
     statuses = fetch_statuses(MASTODON_BASE_URL, MASTODON_ACCESS_TOKEN, user_id)
+    print(f"Fetched {len(statuses)} statuses")  # 添加调试信息
     save_last_fetched_id(statuses)
     update_status_file(statuses)
     download_images_from_history()
