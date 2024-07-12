@@ -1,5 +1,16 @@
 [
     {
+        "created_at": "2024-07-12T17:24:44.018Z",
+        "url": "https://c7.io/@cue/112774681986150835",
+        "content": "<p>虽然Mastodon页面和App输入框右下角都有一个500字提示，但是实际上是可以输入2000个字的。</p>",
+        "application": {
+            "name": "Metatext",
+            "website": "https://metabolist.org/metatext"
+        },
+        "media_attachments": [],
+        "tags": []
+    },
+    {
         "created_at": "2024-07-12T16:27:11.389Z",
         "url": "https://c7.io/@cue/112774455714654309",
         "content": "<p>最近群晖一直提醒我，系统内存没有空间了，今天打算清理一下，结果进了SSH没过脑子就把Package和@Appstore文件夹给删了，导致无法进系统后台，于是花了半天时间重新恢复系统…… 就像今天看到的那句话，高温是所有电子产品的二号杀手，一号杀手是手贱。</p>",
