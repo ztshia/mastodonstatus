@@ -1,5 +1,21 @@
 [
     {
+        "created_at": "2024-07-13T08:51:02.236Z",
+        "url": "https://c7.io/@cue/112778324360211093",
+        "content": "<p>破防了，这么多年一直以为万科广场楼上这个KTV叫星聖會，直到今天在楼上叫了个奶茶，外卖小哥教育我这家店叫星聚會，电话里教育一遍取餐又教育一遍。可我还是觉得星聖會好听点，答应我，就改这个名字好不好。</p>",
+        "application": {
+            "name": "Mammoth",
+            "website": "https://getmammoth.app"
+        },
+        "media_attachments": [
+            {
+                "url": "https://c7.io/system/media_attachments/files/112/778/324/206/340/189/original/8991fde9cfe2734b.jpeg",
+                "preview_url": "https://c7.io/system/media_attachments/files/112/778/324/206/340/189/small/8991fde9cfe2734b.jpeg"
+            }
+        ],
+        "tags": []
+    },
+    {
         "created_at": "2024-07-12T17:24:44.018Z",
         "url": "https://c7.io/@cue/112774681986150835",
         "content": "<p>虽然Mastodon页面和App输入框右下角都有一个500字提示，但是实际上是可以输入2000个字的。</p>",
