@@ -159,12 +159,12 @@ html {
 }
 
 #load-more {
-    background-color: #ddd;
-    color: black;
+    background: linear-gradient(45deg, #58ed7e, #57a4f3 100%);
+    color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
     display: block;
     width: 100%;
