@@ -19,7 +19,7 @@
         "muted": false,
         "bookmarked": false,
         "pinned": false,
-        "content": "<p>我实在是想不到法国除了足球运动员以外还有什么其他运动员能够有资格点火炬的，第一反应是跨栏的杜库雷和网球的毛瑞斯莫……（好像成绩的一般）</p>",
+        "content": "<p>我实在是想不到法国除了足球运动员以外还有什么其他运动员能够有资格点火炬的，第一反应是跨栏的杜库雷和网球的毛瑞斯莫……（好像成绩也一般）</p>",
         "filtered": [],
         "reblog": null,
         "application": {
@@ -424,98 +424,6 @@
             ]
         },
         "media_attachments": [],
-        "mentions": [],
-        "tags": [],
-        "emojis": [],
-        "card": null,
-        "poll": null
-    },
-    {
-        "id": "112825899378071784",
-        "created_at": "2024-07-21T18:29:59.397Z",
-        "in_reply_to_id": null,
-        "in_reply_to_account_id": null,
-        "sensitive": false,
-        "spoiler_text": "",
-        "visibility": "public",
-        "language": "zh-CN",
-        "uri": "https://c7.io/users/cue/statuses/112825899378071784",
-        "url": "https://c7.io/@cue/112825899378071784",
-        "replies_count": 0,
-        "reblogs_count": 0,
-        "favourites_count": 0,
-        "edited_at": null,
-        "favourited": false,
-        "reblogged": false,
-        "muted": false,
-        "bookmarked": false,
-        "pinned": false,
-        "content": "<p>亲爱的美国同胞们，</p><p>在过去三年半的时间里，我们作为一个国家取得了巨大的进步。今天，美国拥有世界上最强大的经济。我们对重建我们的国家、降低老年人处方药费用、扩大可负担医疗保健覆盖范围做出了历史性投资。我们已经为接触到有毒物质的百万退伍军人提供了急需的关怀。通过了30年来的第一部枪支安全法。任命了首位非洲裔美国女性进入最高法院。并且通过了世界历史上最重要的气候立法。美国从未像今天这样处于领导地位。</p><p>我知道没有你们，美国人民，这一切都不可能实现。我们一起克服了一个世纪一遇的大流行病和自大萧条以来最严重的经济危机。我们保护并维护了我们的民主。我们振兴并加强了我们在全球的联盟。</p><p>担任你们的总统是我一生中最大的荣幸。虽然我一直打算寻求连任，但我认为为了我的党和国家的最佳利益，我应该退下来，专注于履行我作为总统的职责，直到我的任期结束。</p><p>我将在本周晚些时候更详细地向全国发表我的决定。</p><p>现在，让我向所有为我的连任努力工作的人表达我最深切的感谢。我要感谢副总统卡马拉·哈里斯，感谢她在所有这些工作中成为非凡的伙伴。让我向美国人民表达我由衷的感激，感谢你们对我的信任和信任。</p><p>我今天相信，我一直以来的信念：只要我们团结一致，没有什么是美国做不到的。我们只需要记住我们是美利坚合众国。</p>",
-        "filtered": [],
-        "reblog": null,
-        "application": {
-            "name": "Mammoth",
-            "website": "https://getmammoth.app"
-        },
-        "account": {
-            "id": "112300688610343990",
-            "username": "cue",
-            "acct": "cue",
-            "display_name": "Kioto",
-            "locked": false,
-            "bot": false,
-            "discoverable": false,
-            "group": false,
-            "created_at": "2024-04-20T00:00:00.000Z",
-            "note": "<p>IP属地：安徽</p><p>著名晨间剧表演艺术家、国家一级演员新垣结衣女士的配偶。</p>",
-            "url": "https://c7.io/@cue",
-            "uri": "https://c7.io/users/cue",
-            "avatar": "https://c7.io/system/accounts/avatars/112/300/688/610/343/990/original/51ffb9cc58c1c13c.jpeg",
-            "avatar_static": "https://c7.io/system/accounts/avatars/112/300/688/610/343/990/original/51ffb9cc58c1c13c.jpeg",
-            "header": "https://c7.io/system/accounts/headers/112/300/688/610/343/990/original/e95d0a04c904e896.jpeg",
-            "header_static": "https://c7.io/system/accounts/headers/112/300/688/610/343/990/original/e95d0a04c904e896.jpeg",
-            "followers_count": 2,
-            "following_count": 5,
-            "statuses_count": 42,
-            "last_status_at": "2024-07-21",
-            "noindex": false,
-            "emojis": [],
-            "roles": [],
-            "fields": [
-                {
-                    "name": "个人网站",
-                    "value": "<a href=\"https://about.upstairs.cn\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">about.upstairs.cn</span><span class=\"invisible\"></span></a>",
-                    "verified_at": null
-                }
-            ]
-        },
-        "media_attachments": [
-            {
-                "id": "112825897656280687",
-                "type": "image",
-                "url": "https://c7.io/system/media_attachments/files/112/825/897/656/280/687/original/981a4b07e4e82781.jpeg",
-                "preview_url": "https://c7.io/system/media_attachments/files/112/825/897/656/280/687/small/981a4b07e4e82781.jpeg",
-                "remote_url": null,
-                "preview_remote_url": null,
-                "text_url": null,
-                "meta": {
-                    "original": {
-                        "width": 1182,
-                        "height": 1478,
-                        "size": "1182x1478",
-                        "aspect": 0.7997293640054127
-                    },
-                    "small": {
-                        "width": 429,
-                        "height": 536,
-                        "size": "429x536",
-                        "aspect": 0.8003731343283582
-                    }
-                },
-                "description": null,
-                "blurhash": "UBSY{qM{?bt7M{WBt7j[~qt7IUWB%MofWBay"
-            }
-        ],
         "mentions": [],
         "tags": [],
         "emojis": [],
