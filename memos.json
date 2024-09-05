@@ -1,5 +1,16 @@
 [
     {
+        "created_at": "2024-09-05T14:43:35.101Z",
+        "url": "https://c7.io/@cue/113085475395908324",
+        "content": "<p>自己在群晖上搭了个Mastodon实例，用内网穿透（白嫖的SakuraFrp）反代了443端口，速度还蛮快的，相当于20G12M的服务器呢。</p><p>→ <span class=\"h-card\" translate=\"no\"><a href=\"https://ustc.mba/@x\" class=\"u-url mention\">@<span>x</span></a></span></p>",
+        "application": {
+            "name": "Metatext",
+            "website": "https://metabolist.org/metatext"
+        },
+        "media_attachments": [],
+        "tags": []
+    },
+    {
         "created_at": "2024-09-05T14:37:59.108Z",
         "url": "https://c7.io/@cue/113085453376381890",
         "content": "<p>九月待我很好，连续收获4个涨停，一直觉得应该卖出一半了，但是又总有一个声音在对我说「再吸最后一口」。</p>",
